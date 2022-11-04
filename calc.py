@@ -14,7 +14,11 @@ def only_digit(stroke):
     
 
 
+<<<<<<< HEAD
 phone_input = input('Введите номер телефона (+79964128058): ')
+=======
+phone_input = input('Введите номер телефона (+79617116592): ')
+>>>>>>> c7e8b8e8ae9f258d3d36ccbca7cb48b83483d242
 
 # print('+' + only_digit(phone_input))
 
