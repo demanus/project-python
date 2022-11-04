@@ -1,9 +1,9 @@
-# post_index_input = input('Введите почтовый индекс: ')
-# post_index = ''
-# for simbol in post_index_input:
-#     if simbol == '0' or ('1' <= simbol <= '9'):
-#         post_index += simbol
-# print(post_index)
+post_index_input = input('Введите почтовый индекс: ')
+post_index = ''
+for simbol in post_index_input:
+    if simbol == '0' or ('1' <= simbol <= '9'):
+        post_index += simbol
+print(post_index)
 
 # def only_digit(stroke):
 #     phone_number = ''
