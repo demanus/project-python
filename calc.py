@@ -5,12 +5,12 @@
 #         post_index += simbol
 # print(post_index)
 
-# def only_digit(stroke):
-#     phone_number = ''
-#     for simbol in stroke:    
-#         if simbol == '0' or ('1' <= simbol <= '9'):
-#             phone_number += simbol
-#     return phone_number
+def only_digit(stroke):
+    phone_number = ''
+    for simbol in stroke:    
+        if simbol == '0' or ('1' <= simbol <= '9'):
+            phone_number += simbol
+    return phone_number
     
 
 
